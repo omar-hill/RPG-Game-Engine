@@ -1,0 +1,66 @@
+body {
+  background: black;
+  color: lime;
+  font-family: monospace;
+  margin: 0;
+}
+
+.screen {
+  padding: 16px;
+  min-height: 100vh;
+}
+
+.titleBlock {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.bunny {
+  margin: 0;
+  color: lime;
+  line-height: 1.1;
+}
+
+.titleText {
+  color: lime;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.statusText {
+  color: lime;
+}
+
+.buttonRow {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.greenButton {
+  background: transparent;
+  color: lime;
+  border: 1px solid lime;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.tosText {
+  margin-top: 16px;
+  color: red;
+}
+
+.tosLink {
+  color: red;
+  text-decoration: underline;
+}
+
+.placeholder {
+  padding: 18px;
+  font-family: monospace;
+}
